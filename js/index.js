@@ -51,7 +51,7 @@ $(current)[0].play();
 var toCheck = Number($(current).attr('data-index'));
   if(record[position]!==toCheck){
   if(strictMode){rest();}
-  $('.alarm').html('Wrong,try again');
+  $('.alarm').html('Попробуй заново!');
   $('#central').css('background-color','rgb(183, 25, 25)')
    timeout = setTimeout(function(){$('.alarm').html(' ');comp(where);$('#central').css('background-color','black');},1000)
     
