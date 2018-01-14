@@ -59,7 +59,7 @@ var toCheck = Number($(current).attr('data-index'));
     position = 0;
     points++;
     where++;
-    $('.alarm').html('Wow, you passed level '+ points);
+    $('.alarm').html('Жоха, прошел уровень: '+ points);
     $('#central').css('background-color','green')
     $('#point').html(points);
     timeout = setTimeout(function(){$('.alarm').html(' ');
